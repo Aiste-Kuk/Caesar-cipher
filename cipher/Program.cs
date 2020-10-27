@@ -21,9 +21,9 @@ namespace cipher
         }
         static void Main(string[] args)
         {
-            string a = "this is a sentence";
+            string a = "This is a sentence! Greetings, everyone.";
             Program pr = new Program();
-            Console.WriteLine(pr.caesar_encrypt(a,5) + " -> encrypted text.");
+            Console.WriteLine(pr.caesar_encrypt(a,20) + " -> encrypted text.");
         }
     }
 }
