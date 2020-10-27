@@ -13,10 +13,6 @@ namespace cipher.Tests_for_encryption_decryption
         public void caesar_encrypt_Test1()
         {
             //______________USING AAA PATTERN, TEXT ENCRYPTION, POSITIVE SHIFT
-            // Arrange - variables for the test
-            /*string x = "this is a sentence";
-            int shift = -20;
-            string expected = "znoy oy g yktzktik";*/
             string x = "this is a sentence";
             int shift = 28;
             string expected = "vjku ku c ugpvgpeg";

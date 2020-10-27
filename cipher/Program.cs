@@ -8,7 +8,7 @@ namespace cipher
         public string caesar_encrypt(string text, int shift)
         {
             int shift_aA = shift, shift_1 = shift;
-            if (shift <= 0)
+            if (shift <= 0) // if a negative shift is applied, turns it into a positive shift, respectively
             {
                 shift_aA = (shift % 26+26)%26;
                 shift_1 = (shift % 32+32)%32;
