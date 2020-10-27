@@ -2,7 +2,7 @@
 
 namespace cipher
 {
-    class Program
+    public class Program
     {
         // Creating Caesar cipher - encryption
         public string caesar_encrypt(string text, int shift)
